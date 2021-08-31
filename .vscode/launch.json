@@ -5,16 +5,9 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "ios",
+      "name": "vs-code-device",
       "request": "launch",
-      "type": "dart",
-      "deviceId": "ios"
-    },
-    {
-      "name": "android",
-      "request": "launch",
-      "type": "dart",
-      "deviceId": "android"
+      "type": "dart"
     },
     {
       "name": "macos",
@@ -28,11 +21,6 @@
       "type": "dart",
       "deviceId": "chrome",
       "args": ["--web-hostname", "localhost", "--web-port", "5000"]
-    },
-    {
-      "name": "vs-code",
-      "request": "launch",
-      "type": "dart"
     },
     {
       "name": "adventures (profile mode)",
